@@ -5,12 +5,14 @@ This wiki is maintained entirely by Gemini CLI. No API key or Python scripts nee
 ## How to Use
 
 Describe what you want in plain English:
+- *"Convert this file: raw/papers/my-paper.pdf"*
 - *"Ingest this file: raw/papers/my-paper.md"*
 - *"What does the wiki say about transformer models?"*
 - *"Check the wiki for orphan pages and contradictions"*
 - *"Build the knowledge graph"*
 
 Or use shorthand triggers:
+- `mark <file>` → Chạy Convert Workflow (chuyển đổi sang Markdown)
 - `ingest <file>` → runs the Ingest Workflow
 - `query: <question>` → runs the Query Workflow
 - `health` → runs the Health Workflow (fast, every session)
@@ -57,6 +59,18 @@ last_updated: YYYY-MM-DD
 Use `[[PageName]]` wikilinks to link to other wiki pages.
 
 ---
+
+## Convert Workflow
+Triggered by: `mark <file>` hoặc khi cần xử lý file không phải .md (PDF, Docx).
+
+1. Check if a PDF already has a corresponding `.md` in `raw/` before converting.
+2. Check for existing markdown: `Glob pattern: raw/*.md`
+3. Check for unprocessed PDFs: `Glob pattern: raw/*.pdf`
+4. Only run conversion if no `.md` counterpart exists
+5. Run: `python tools/mark_it.py "raw/<filename>.pdf"`
+6. Script outputs to `raw/` directory automatically
+7. Append to wiki/log.md: ## [today's date] convert | <Title>
+8. Confirm with user and propose running `ingest` for the new file
 
 ## Ingest Workflow
 

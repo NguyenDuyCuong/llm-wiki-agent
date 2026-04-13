@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"G:\\\\My Drive\\\\Buckets\\\\2. Projects\\\\local-wiki\\\\knowledge-vault\" && python tools/build_graph.py --no-infer 2>&1)",
+      "Bash(cd:*)"
+    ]
+  }
+}
