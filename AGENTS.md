@@ -76,6 +76,8 @@ Triggered by: `mark <file>` hoặc khi cần xử lý file không phải .md (PD
 
 Triggered by: *"ingest <file>"*
 
+**IMPORTANT**: Before ingesting, check if the source already exists in `wiki/sources/`. Only ingest NEW files that haven't been added to the wiki yet.
+
 **Supported formats:** Markdown (`.md`) is ingested directly. Non-markdown files (`.pdf`, `.docx`, `.pptx`, `.xlsx`, `.html`, `.txt`, `.csv`, `.json`, `.xml`, `.rst`, `.rtf`, `.epub`, `.ipynb`, `.yaml`, `.yml`, `.tsv`, `.wav`, `.mp3`) are auto-converted to markdown via [markitdown](https://github.com/microsoft/markitdown) before ingestion. Use `--no-convert` to skip auto-conversion.
 
 Steps (in order):
