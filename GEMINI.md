@@ -76,6 +76,8 @@ Triggered by: `mark <file>` hoặc khi cần xử lý file không phải .md (PD
 
 Triggered by: *"ingest <file>"*
 
+**IMPORTANT**: Before ingesting, check if the source already exists in `wiki/sources/`. Only ingest NEW files that haven't been added to the wiki yet.
+
 1. Read the source document fully
 2. Read `wiki/index.md` and `wiki/overview.md` for current wiki context
 3. Write `wiki/sources/<slug>.md` (source page format below)
