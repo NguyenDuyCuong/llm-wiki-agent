@@ -88,3 +88,15 @@ The main content flow is:
 - `[[Wikilinks]]` are the primary connective tissue of the repo. They are consumed by ingest validation, lint, query expansion, and graph building, so avoid replacing them with plain text when editing wiki content.
 - `graph/` holds generated outputs and caches, not hand-authored content. Treat `graph/graph.json`, `graph/.cache.json`, `graph/.inferred_edges.jsonl`, and `graph/.refresh_cache.json` as derived artifacts.
 - Query results are meant to be shown first and only saved into `wiki/syntheses/` when explicitly requested.
+
+## Suggested improvements for Copilot sessions
+- Quick sequence: run python tools/health.py first, then python tools/lint.py, then python tools/build_graph.py --report --save when making content changes. Use python tools/refresh.py --page sources/<slug> to validate a single page.
+- Environment: repo supports Python >=3.10,<3.14 (see pyproject.toml). Use a virtual environment and install dependencies via pip install -r requirements.txt or poetry install when using Poetry.
+- Single-file operations:
+  - Ingest one source: python tools/ingest.py raw/path/to/source.md
+  - Validate one page: python tools/refresh.py --page sources/<slug>
+  - Convert PDF to markdown: python tools/mark_it.py raw/file.pdf
+- Files the agent should prioritize when answering or modifying content: CLAUDE.md (schema), AGENTS.md, GEMINI.md, README.md, and wiki/index.md. Respect .claude/commands/ presets when present.
+- Add a short "Quick commands" cheat-sheet (3–6 lines) near the top of this file for faster interactive sessions.
+
+If you'd like, these suggested improvements can be adjusted or expanded; say "apply" to accept this edit or tell me what to change.
