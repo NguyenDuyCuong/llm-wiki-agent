@@ -59,6 +59,9 @@ last_updated: YYYY-MM-DD
 Use `[[PageName]]` wikilinks to link to other wiki pages.
 
 ---
+## Generic Flows
+- Before editing any file, read it first. Before modifying a function, grep for all callers. Research before you edit.
+---
 
 ## Convert Workflow
 Triggered by: `mark <file>` hoặc khi cần xử lý file không phải .md (PDF, Docx).

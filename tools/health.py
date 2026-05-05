@@ -45,8 +45,13 @@ def read_file(path: Path) -> str:
 
 def all_wiki_pages() -> list[Path]:
     """All .md files in wiki/, excluding meta files."""
-    exclude = {"index.md", "log.md", "lint-report.md", "health-report.md"}
-    return [p for p in WIKI_DIR.rglob("*.md") if p.name not in exclude]
+    exclude = {"index.md", "log.md", "overview.md"}
+    return [
+        p for p in WIKI_DIR.rglob("*.md")
+        if p.name not in exclude
+        and not p.name.startswith("lint-report")
+        and not p.name.startswith("health-report")
+    ]
 
 
 def strip_frontmatter(content: str) -> str:

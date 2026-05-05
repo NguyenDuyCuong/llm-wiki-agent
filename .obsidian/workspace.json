@@ -44,9 +44,201 @@
               "icon": "lucide-file",
               "title": "Dự báo chuỗi thời gian - Phần 13"
             }
+          },
+          {
+            "id": "ccfc694ee98fb14f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Dự báo chuỗi thời gian - Phần 14.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dự báo chuỗi thời gian - Phần 14"
+            }
+          },
+          {
+            "id": "eea55106efb5505a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Dự báo chuỗi thời gian - Phần 13.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dự báo chuỗi thời gian - Phần 13"
+            }
+          },
+          {
+            "id": "aad47f97e4de51f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Dự báo chuỗi thời gian - Phần 10.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dự báo chuỗi thời gian - Phần 10"
+            }
+          },
+          {
+            "id": "a1d4b8e31124dcb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Dự báo chuối thời gian - Phần 12.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dự báo chuối thời gian - Phần 12"
+            }
+          },
+          {
+            "id": "4f53f8dcc68c7798",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Dự báo chuỗi thời gian - Phần 7.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dự báo chuỗi thời gian - Phần 7"
+            }
+          },
+          {
+            "id": "dd48d02743ab7719",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Dự báo chuỗi thời gian - Phần 6.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dự báo chuỗi thời gian - Phần 6"
+            }
+          },
+          {
+            "id": "e5a739b8059182c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Dự báo chuỗi thời gian - Phần 5.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dự báo chuỗi thời gian - Phần 5"
+            }
+          },
+          {
+            "id": "39ef95e40ddc33b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Dự báo chuỗi thời gian - Phần 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dự báo chuỗi thời gian - Phần 3"
+            }
+          },
+          {
+            "id": "84add391d237ba86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Dự báo chuỗi thời gian - Phần 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dự báo chuỗi thời gian - Phần 2"
+            }
+          },
+          {
+            "id": "4cbe590f29634d0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Dự báo chuỗi thời gian - Phần 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dự báo chuỗi thời gian - Phần 1"
+            }
+          },
+          {
+            "id": "aa04ef8ab2f7c1d3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "7bf0bcd22251c5b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Series công cụ trong phân tích - Phần 5.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Series công cụ trong phân tích - Phần 5"
+            }
+          },
+          {
+            "id": "b1ac9d28e9acd160",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Series Công Cụ trong Phân Tích - Phần 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Series Công Cụ trong Phân Tích - Phần 3"
+            }
+          },
+          {
+            "id": "295d5567174ac1bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/sources/building-simple-notebooklm.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "building-simple-notebooklm"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -103,7 +295,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 413.5
   },
   "right": {
     "id": "9b438859180ecafd",
@@ -205,48 +397,55 @@
       "bases:Create new base": false
     }
   },
-  "active": "bc34d842646d3c85",
+  "active": "295d5567174ac1bf",
   "lastOpenFiles": [
-    "raw/attachments/Pasted image 20260422230528.png",
-    "raw/SKILL-RAG - PHƯƠNG PHÁP MỚI GIÚP AI TỰ SỬA LỖI TÌM KIẾM THÔNG TIN.md",
-    "raw/Dự báo chuỗi thời gian - Phần 13.md",
-    "tools/health.py",
-    "tools/file_to_md.py",
-    "raw/scaling-emulations.pdf",
-    "raw/AIO Conquer Blog.md",
-    "wiki/concepts/GenerativeModels.md",
-    "wiki/concepts/Denoising.md",
-    "wiki/lint-report-2026-04-20.md",
-    "wiki/index.md",
-    "wiki/log.md",
-    "wiki/lint-report.md",
-    "wiki/concepts/ImageInpainting.md",
-    "wiki/concepts/LLMAlignment.md",
-    "wiki/concepts/DiffusionModel.md",
-    "wiki/overview.md",
-    "wiki/sources/image-inpainting-diffusion.md",
-    "wiki/sources/llm-alignment.md",
-    "raw/[Exercise]-Image-Inpainting-Diffusion-Model.md",
-    "raw/[Reading]-LLM-Alignment.md",
-    "raw/Dự báo chuỗi thời gian - Phần 10.md",
-    "raw/attachments/Pasted image 20260417230309.png",
-    "raw/[Reading]-LLM-Alignment.pdf",
-    "wiki/sources/optimizer.md",
-    "wiki/sources/kiem-tra-tinh-dung.md",
-    "wiki/concepts/CLTV.md",
-    "wiki/concepts/NLP.md",
-    "wiki/concepts/NumPy.md",
-    "wiki/concepts/FunnelAnalysis.md",
-    "wiki/sources/vqa.md",
-    "raw/attachments/Pasted image 20260416232738.png",
-    "raw/Untitled 1.base",
-    "tools/llm_client.py",
-    "tools/g4f_ingrest.py",
-    "raw/Untitled.base",
-    "wiki/entities",
-    "raw/attachments/Pasted image 20260415233956.png",
-    "raw/[Description]-LLMs-Fine-tuning.pdf",
-    "raw/attachments/Pasted image 20260415112706.png",
-    "raw/attachments/Pasted image 20260415112421.png"
+    "raw/Evaluation RAG – Đừng đo bằng “cảm giác đúng”.md",
+    "wiki/entities/MichielSmid.md",
+    "wiki/entities/CarletonUniversity.md",
+    "wiki/entities/AntGroup.md",
+    "wiki/entities/ZhejiangUniversity.md",
+    "wiki/concepts/SlowThinking.md",
+    "wiki/concepts/DiscreteStructures.md",
+    "wiki/concepts/Combinatorics.md",
+    "wiki/concepts/KnowledgeBoundary.md",
+    "wiki/concepts/LLMEvaluation.md",
+    "wiki/concepts/ProcessReward.md",
+    "wiki/concepts/AITextDetection.md",
+    "wiki/concepts/MarketMaking.md",
+    "wiki/concepts/Reranking.md",
+    "wiki/concepts/BayesTheorem.md",
+    "wiki/concepts/QuantitativeFinance.md",
+    "wiki/entities/MITSloan.md",
+    "wiki/sources/mit-quant-bible.md",
+    "wiki/concepts/VectorStore.md",
+    "wiki/sources/building-simple-notebooklm.md",
+    "wiki/concepts/PEFT.md",
+    "wiki/sources/peft-for-mcqa.md",
+    "wiki/sources/discrete-structures.md",
+    "wiki/sources/reading-arima.md",
+    "wiki/sources/knowrl-rl-for-factuality.md",
+    "wiki/sources/ai-generated-text-detection.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "raw/[Description]-Building-Simple-NotebookLM.pdf",
+    "raw/[Description]-Project-PEFT-for-MCQA.pdf",
+    "raw/Reading-ARIMA.pdf",
+    "raw/KnowRLExploring Knowledgeable Reinforcement Learning for Factuality.pdf",
+    "raw/2501.15654v2.pdf",
+    "raw/DiscreteStructures.pdf",
+    "raw/MIT-Quant-Bible.pdf",
+    "raw/attachments/Pasted image 20260504142400.png",
+    "raw/attachments/Pasted image 20260504142145.png",
+    "raw/attachments/Pasted image 20260504142011.png",
+    "Untitled",
+    "logseq/custom.css",
+    "pages",
+    "raw/attachments/Pasted image 20260504092229.png",
+    "raw/attachments/Pasted image 20260503020708.png",
+    "raw/attachments/Pasted image 20260503020658.png",
+    "raw/attachments/Pasted image 20260503020633.png",
+    "raw/attachments/Pasted image 20260503020621.png",
+    "raw/attachments/Pasted image 20260503003038.png",
+    "raw/attachments/Pasted image 20260503003029.png"
   ]
 }

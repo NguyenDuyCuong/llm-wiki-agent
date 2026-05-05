@@ -127,7 +127,7 @@ def load_cache() -> dict:
 
 def save_cache(cache: dict):
     GRAPH_DIR.mkdir(parents=True, exist_ok=True)
-    CACHE_FILE.write_text(json.dumps(cache, indent=2))
+    CACHE_FILE.write_text(json.dumps(cache, indent=2), encoding="utf-8")
 
 
 def build_nodes(pages: list[Path]) -> list[dict]:
@@ -1259,7 +1259,7 @@ def build_graph(infer: bool = True, open_browser: bool = False, clean: bool = Fa
 
     # Save graph.json
     graph_data = {"nodes": nodes, "edges": edges, "built": today}
-    GRAPH_JSON.write_text(json.dumps(graph_data, indent=2, ensure_ascii=False))
+    GRAPH_JSON.write_text(json.dumps(graph_data, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"  saved: graph/graph.json  ({len(nodes)} nodes, {len(edges)} edges)")
 
     # Save graph.html
